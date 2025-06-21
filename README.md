@@ -1,4 +1,4 @@
-The Smart Patient Management System(SPMS) is a JavaFX-based desktop application designed to streamline the management of patient information in clinics or small healthcare setups. It enables medical staff to easily add, view, edit, and manage patient data through a user-friendly graphical interface.
+The Smart Patient Management System(SPMS) is a basic JavaFX-based desktop application designed to streamline the management of patient information in clinics or small healthcare setups. It enables medical staff to easily add, view, edit, and manage patient data through a user-friendly graphical interface.
 
 🔧 Key Features:
 1.Add Patient Details
@@ -25,4 +25,14 @@ Automatically updates the database after editing
 
 Built using JavaFX with FXML layout files
 
-Clean, interactive GUI with modular design (MVC pattern)
+Clean, interactive GUI with modular design (MVC pattern).
+
+| Component      | Technology                     |
+| -------------- | ------------------------------ |
+| Frontend (GUI) | JavaFX + FXML                  |
+| Backend Logic  | Java (Controllers + Models)    |
+| Database       | SQLite (local DB)              |
+| IDE            | Visual Studio Code             |
+| Java Version   | JDK 24 (with OpenJFX 24)       |
+| Build Method   | Manual CLI / VS Code Java Pack |
+
