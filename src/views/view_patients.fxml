@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.ViewPatientsController"
+            prefWidth="600" prefHeight="400">
+    
+    <TableView fx:id="patientTable" layoutX="20" layoutY="20" prefWidth="560" prefHeight="340">
+        <columns>
+            <TableColumn fx:id="nameColumn" text="Name" prefWidth="120"/>
+            <TableColumn fx:id="ageColumn" text="Age" prefWidth="80"/>
+            <TableColumn fx:id="genderColumn" text="Gender" prefWidth="100"/>
+            <TableColumn fx:id="symptomsColumn" text="Symptoms" prefWidth="260"/>
+        </columns>
+    </TableView>
+
+    <Button layoutX="260" layoutY="370" text="Close" onAction="#handleClose"/>
+
+</AnchorPane>
+

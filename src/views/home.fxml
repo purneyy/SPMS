@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controllers.HomeController">
+
+    <Label text="Welcome to Smart Patient Manager" />
+    
+    <Button text="Add Patient" onAction="#onAddPatient" />
+    <Button text="View Patients"
+        layoutX="150"
+        layoutY="220"
+        prefWidth="120"
+        fx:id="viewPatientsButton"
+        onAction="#onViewPatients"/>
+
+
+</VBox>

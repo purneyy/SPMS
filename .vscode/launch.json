@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch JavaFX App",
+      "request": "launch",
+      "mainClass": "Main",
+      "cwd": "${workspaceFolder}",
+      "vmArgs": "--module-path \"C:/Users/Purnima/Downloads/openjfx-24.0.1_windows-x64_bin-sdk/javafx-sdk-24.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+      "classPaths": [
+        "out",
+        "lib/sqlite-jdbc-3.50.1.0.jar"
+      ]
+    }
+  ]
+}
