@@ -21,7 +21,7 @@ Opens a pre-filled form to update existing patient details
 
 Automatically updates the database after editing
 
-4. Modern UI with JavaFX
+4.Modern UI with JavaFX
 
 Built using JavaFX with FXML layout files
 
